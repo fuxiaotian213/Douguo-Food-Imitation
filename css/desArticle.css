@@ -1,0 +1,43 @@
+/*文章头部*/
+.fu_article_content .fu_header {text-align: center;border-bottom: 1px solid #E5E3DF;padding-bottom: 20px;}
+.fu_article_content .fu_header h3 {font-size: 24px;margin-bottom: 20px;line-height: 33px;font-weight: bold;}
+.fu_art_info {font-size: 15px;}
+.fu_art_info a, .fu_copy a {color: #1a1a00;}
+.fu_art_info span {margin-right: 20px;color: #999;}
+/*内容*/
+.fu_tiji {font-size: 12px;color: #999;line-height: 20px;margin:16px 0 20px;text-align:justify;}
+.fu_par p {font-size: 15px;line-height: 27px;padding-bottom: 16px;}
+.fu_par img {display: block;width: 100%;}
+
+.fu_copy {font-size: 13px;color: #999;padding: 80px 0 20px;}
+.fu_copy a{color: #256DC6;}
+.fu_comment .mini-title{font-size: 16px;color: #333;line-height: 20px;font-weight:bold;margin:40px 0 25px;}
+
+.theme {display:block;padding: 20px 0;}
+.theme .theme-img {width: 94px;height: 94px;overflow:hidden;margin-right: 8px;}
+.theme .theme-img img {width: 94px;height: 94px;border-radius: 4px;}
+.theme .theme-info{width:172px;height:94px;overflow:hidden;}
+.theme .title {font-weight: bold;font-size: 18px;color: #333;}
+.theme .des {color: #999;font-size:15px;line-height: 22px;height:66px;word-break: break-all; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;}
+
+/*#fu_right .mtit{font-size: 16px;line-height:16px;font-weight: bold;color: #333;}
+#fu_right .mtit .more{font-weight: normal;font-size: 16px;color: #256DC6;float: right;height:20px;line-height:20px;}
+#fu_right .more img{height:14px;vertical-align: middle;position: relative;top:-2px;}
+
+.pre-next {padding:20px 0;}
+.pre-next .item {margin-top:10px;display: block;width: 290px;font-size: 16px;color: #383830;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+.pre-next .nomore{margin-top:10px;font-size:16px;}
+.pre-next .next {margin-top: 20px;}
+
+.author-info {padding: 20px 0;}
+.aut-info{margin-top: 20px;}
+.aut-info .author-img{float:left;width:50px;height:50px;margin-right:6px;overflow: hidden;}
+.aut-info .author-img img{width:50px;height:50px;border-radius: 50%;}
+.aut-info .aut-desinfo{float:left;width:224px;height:50px;overflow: hidden;}
+.aut-desinfo .name {font-size: 18px;color: #333;}
+.aut-desinfo .address{font-size: 16px;color: #666;}
+.aut-desinfo .address i {display: inline-block;width: 18px;height: 18px;vertical-align: middle;background-size: auto 100%;}
+
+.other-article {padding: 20px 0;margin-bottom:20px;}
+.other-article .article-title {margin-top: 13px;}
+.other-article a {display: inline-block;width: 280px;font-size: 15px;color: #959595;line-height: 27px;}*/

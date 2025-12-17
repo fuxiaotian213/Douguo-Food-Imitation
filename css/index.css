@@ -1,0 +1,133 @@
+﻿#fu_content .fu_more{font-size: 13px;color: #256DC6;float: right;height:20px;line-height:20px;font-weight:normal;}
+#fu_content .fu_more img{height:10px;vertical-align: middle;position: relative;top:-1px;}
+#fu_content .fu_title{font-size: 20px;color: #333;font-weight: bold;margin-top:40px;line-height: 20px;}
+/*轮播banner*/
+#banner{width:100%;min-width:1000px;overflow: hidden;position: relative;height:400px;overflow: hidden;}
+#banner .fu_banner{top:0;left:0;width:100%;height:100%;}
+#banner .prev, #banner .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+#banner .prev:hover, #banner .next:hover {
+    background: rgba(0, 0, 0, 0.6);
+    transform: translateY(-50%) scale(1.1);
+}
+#banner .prev {
+    left: 20px;
+}
+#banner .next {
+    right: 20px;
+}
+#banner .blist{display: inline-block;width:400%;position: relative;height:100%;}
+#banner .blist li{float:left;width:25%;height:100%;}
+#banner .blist li a {display: block;width: 100%;height: 100%;}
+#banner .blist li img {width: 100%;height: 100%;object-fit: cover;}
+#banner .bpages {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+}
+#banner .bpages li {
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    margin: 0 8px;
+    transition: all 0.3s ease;
+}
+#banner .bpages li:hover {
+    background: rgba(255, 255, 255, 0.8);
+    transform: scale(1.2);
+}
+#banner .bpages li.act {
+    background: #fff;
+    transform: scale(1.3);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+/*菜谱*/
+.fu_recipe_list .fu_item{width:220px;height:270px;float:left;margin:25px 40px 0 0;display: inline-block;}
+.fu_recipe_list .fu_cover,.fu_note_list .fu_cover{width:220px;height:220px;display: block;overflow: hidden;position:relative;}
+.fu_recipe_list .fu_name{display:block;width:220px;height:35px;line-height:35px;font-size: 15px;}
+.fu_recipe_list .fu_author{display:block;font-size: 12px;height:16px;line-height:13px;}
+.fu_recipe_list .fu_name:hover,.fu_recipe_list .fu_author:hover a{color:#ffaa00;}
+/*笔记*/
+.fu_note_list .fu_item{width:220px;height:290px;float:left;margin:20px 40px 0 0;}
+.fu_note_list .fu_cover{border-top-right-radius: 8px;border-top-left-radius: 8px;}
+.fu_note_list .fu_info{padding:0 10px;height:70px;overflow: hidden;border-bottom-right-radius: 8px;border-bottom-left-radius: 8px;box-shadow: 1px 1px 4px rgba(124,131,140,0.04),1px 1px 4px rgba(124,131,140,0.04),-1px 1px 4px rgba(124,131,140,0.04),-1px 1px 4px rgba(124,131,140,0.04);}
+.fu_note_list .fu_name{display: block;width:100%;line-height:35px;font-size: 15px;height:35px;overflow: hidden}
+.fu_note_list .fu_author{display:inline-block;font-size: 12px;height:22px;line-height:22px;}
+.fu_note_list .fu_headicon{display:inline-block;width:22px;height:22px;vertical-align: middle;}
+.fu_note_list .fu_nickname{display:inline-block;vertical-align: middle;}
+/*菜单*/
+.menu-list{padding-top:6px;}
+.menu-list .fu_item{width:324px;height:182px;float:left;margin:22px 24px 0 0;overflow: hidden;position: relative;}
+.menu-list .fu_cover{display:block;width:100%;height:100%;text-align: center;overflow: hidden;}
+.menu-list .menuinfo{position: absolute;top:0;left:0;width:100%;height:100%;background: rgba(0,0,0,.14);}
+.menu-list p{width:298px;font-size: 15px;line-height:15px;color: #FFF;text-shadow: 0 1px 2px rgba(0,0,0,0.28);margin: 0 auto;padding-top:10px; }
+.menu-list .fu_name{font-weight: bold;padding-top:66px;font-size:20px;line-height:24px;}
+/* 大家都在搜 */
+.fu_all_search{width:690px;margin-top: 25px;}
+.fu_all_search span{border: 1px solid #000;border-radius: 8px;padding: 6px 24px;display: inline-block;margin: 12px 12px;}
+.fu_all_search span:hover {color: #F4B644; border-color: #F4B644;}   
+/*食材*/
+.fu_material_list{width:690px;height:276px;background: #F1F7FA;margin-top: 20px;padding:4px 3px 24px;}
+.fu_material_list .fu_item{margin:20px 17px 0;width:80px;height:104px;float:left;text-align: center;overflow: hidden;font-size: 13px;}
+.fu_material_list .fu_item img{width: 80px; height: 80px;margin-bottom: 5px;display: block;}
+.fu_note_list .fu_name:hover,.fu_note_list .fu_nickname:hover,.fu_material_list .fu_item:hover a{color:#ffaa00;}
+/*主题站*/
+.fu_hot_article{height:112px;margin:20px 0 30px;}
+.fu_hot_article .fu_cover{width:200px;height:112px;float: left;overflow: hidden;}
+.fu_hot_article .fu_info{width:478px;height:112px;margin:3px 0 0 12px;float: left;}
+.fu_hot_article .fu_name{font-size: 16px;line-height:30px;display: block;height:60px;}
+.fu_hot_article .fu_sour_auth{margin-top:25px;font-size:13px;line-height:13px;}
+.fu_hot_article .fu_source{margin-right:55px;}
+.fu_alist li{width:320px;float: left;text-overflow: ellipsis; white-space: nowrap; overflow: hidden;font-size:13px;line-height:16px;margin:10px 0;}
+.fu_alist .fu_ar{margin-left:50px;}
+.fu_hot_article .fu_name:hover,.fu_hot_article .fu_sour_auth a:hover,.fu_alist li:hover a{color:#ffaa00;}
+/*大家的作品*/
+.fu_zp_list{margin-top: 25px;}
+.fu_zp_list li{margin-bottom: 30px;}
+.fu_zp_list .fu_zpinfo{float:left;width:202px;height:110px;margin-left:6px;font-size:13px;color:#333;padding-top:26px;}
+.fu_zp_list .fu_dishnum{margin-top:23px;}
+.fu_zp_list .fu_dishnum span{color:#000;font-weight:bold;}
+.fu_zp_list .fu_zpinfo:hover,.fu_zp_list .fu_zpinfo:hover span{color:#ffaa00;}
+
+.fu_zp_list .fu_zp{display:inline-block;width:110px;height:110px;float:left;overflow: hidden;}
+.fu_zpwork  .fu_zp{margin-left:14px;}
+/*达人*/
+.fu_dr_list{margin-top: 5px;width:280px;height:355px;overflow: hidden;}
+.fu_dr_list li{margin-top: 20px;height:46px;}
+.fu_dr_list .fu_headicon{width:46px;height:46px;overflow:hidden;}
+.fu_dr_list .fu_info{margin-left:6px;width:130px;height:100%;float:left;}
+.fu_dr_list .fu_nickname{display: inline-block;max-width:120px;font-size:15px;vertical-align:middle;}
+.fu_dr_list .fu_fans{font-size: 12px;color: #999;margin-top:8px;}
+.fu_dr_list .fu_gz{float:right;color:#333;border: 1px solid #333;width:73px;height:30px;line-height:28px;text-align:center;margin-top:8px;border-radius:4px;}
+.fu_dr_list .fu_addicon{font-size:14px;}
+/*商城精选*/
+.fu_mall_list{margin-top: 5px;width:280px;height:324px;overflow: hidden;}
+.fu_mall_list li{margin-top: 20px;height:88px;}
+.fu_mall_list .fu_info{margin-left:6px;width:186px;height:100%;}
+.fu_mall_list .fu_name{width:100%;font-size: 15px;color: #333;line-height:20px;height: 40px;}
+.fu_mall_list .price{font-size: 16px;color: #FF4C44;margin-top:4px;}
+.fu_mall_list .count{font-size: 12px;color: #999;margin-top:7px;}
+/*豆果实验室*/
+.fu_test_list,dm-list{padding-top:5px;}
+.fu_test_list li,.fu_dm_list li{margin-top:20px;font-size: 13px;line-height:13px;color: #333;}
+.fu_dr_list .fu_nickname:hover,.fu_mall_list .fu_name:hover,.fu_test_list li:hover a, .fu_dm_list li:hover a{color:#ffaa00;}

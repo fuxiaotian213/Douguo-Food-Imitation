@@ -1,0 +1,30 @@
+/*精选列表*/
+.fu_title{font-size: 20px;color: #333;line-height: 20px;font-weight: bold;margin-bottom: 25px;}
+#fu_jxlist .fu_item{float:left;width:300px;height:255px;overflow: hidden;margin: 0 40px 40px 0;}
+#fu_jxlist .fu_cover{width:300px;height:200px;overflow: hidden;border-radius: 8px;display: block;background:#F9F9F9;}
+#fu_jxlist .fu_cover img{width:300px;} 
+#fu_jxlist .fu_cookname{display:block;font-size: 15px;color: #333;line-height: 15px;padding: 10px 0;}
+#fu_jxlist .fu_author{display:inline-block;height:20px;line-height: 20px;font-size: 12px;}
+#fu_jxlist .fu_author img{width: 20px;height:20px;border-radius: 50%;vertical-align: bottom;}
+#fu_jxlist .fu_view_coll{position:absolute;right:0;bottom:0;font-size: 12px;line-height: 20px;}
+#fu_jxlist .fu_view::before, .fu_collect::before {content: '';display: inline-block;vertical-align: middle;margin-right: 2px;position: relative;top: -1px;}
+#fu_jxlist .fu_view::before {width: 17px;height: 12px;background: url("../images/view2.png?2");}
+#fu_jxlist .fu_collect::before {width: 14px;height: 13px;background: url("../images/collect2.png?2");}
+#fu_jxlist .fu_collect{margin-left: 6px;}
+#fu_jxlist .fu_cookname:hover,#fu_jxlist .fu_author:hover{color:#ffaa00;}
+
+.caiptips{width:1000px;height:220px;background: #F1F7FA;border-radius: 8px;padding:20px 0;margin-bottom: 30px; }
+.caiptips .cliner {border-right: 1px dotted #e4e4e4;}
+.caiptips .fenlei {width: 250px;height: 180px;overflow: hidden;float: left;}
+.caiptips h2 {text-align: center;font-size: 20px;font-weight: bold;line-height: 40px;}
+.caiptips  ul {padding-left:12px;}
+.caiptips  li {float: left;width: 57px;height:35px;line-height: 35px;padding-left:3px;text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+.caiptips  li a {display:inline-block;height:30px;line-height:30px;font-size:12px;color: #256DC6;padding:0 3px;}
+.caiptips  li.act{padding-left:0;}
+.caiptips  li.act a{color: #FFF;background: #256DC6;border-radius: 18px;}
+/*分类*/
+.sorttit{margin:30px 0 20px;}
+.sort-item h2{font-size: 16px;color: #333;line-height: 20px;font-weight: bold;margin-bottom:20px;margin-top:15px;}
+.sort-item li{width:142px;float: left;line-height: 16px;font-size:14px;}
+.sort-item li a{display: block;color: #256DC6;padding-right: 10px;padding-bottom:15px;width: 100%;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+.sort-item .open{width:142px;float: left;line-height: 16px;color: #256DC6;}
